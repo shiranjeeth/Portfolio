@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=PT+Sans&display=swap');
+
+.skillContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2s30px;
+    margin-left: 0px;
+}
+.skillset-container{
+    color: white;
+    flex: 0.6;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.skillset-container > h1{
+ font-size: 30px;
+}
+.skill-img{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+    width: 600px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+.skillcontainer-skillset > h5{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    
+    
+}

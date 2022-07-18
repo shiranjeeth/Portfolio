@@ -1,0 +1,26 @@
+.project{
+    display: flex;
+    justify-content: space-evenly;
+   flex-direction: column;
+    width: 200px;
+    height: 179px;
+    margin-top: 15px;
+    transition: transform 100ms ease-in;
+}
+.project-img{
+    width: 200px;
+    height: 179px;
+    border-radius: 8px;
+}
+.project:hover{
+    color: white;
+    background-color: #f64c08;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 8px;
+
+}
